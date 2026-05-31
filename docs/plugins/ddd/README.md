@@ -30,12 +30,6 @@ These principles address the core challenge of software development: **managing 
 
 [Usage Examples](./usage-examples.md)
 
-## setup-code-formating command
-
-Establishes consistent code formatting rules and style guidelines by updating your project's CLAUDE.md/GEMINI.md/AGENTS.md file with enforced standards.
-
-See [setup-code-formating.md](./setup-code-formating.md) for detailed command documentation.
-
 ## Rules
 
 The DDD plugin includes 14 rules organized into four categories that activate automatically when writing or reviewing code. Each rule targets specific file patterns and has an assigned impact level.
