@@ -8,6 +8,11 @@ description: >-
 
 The Context Engineering Kit (CEK) is a hand-crafted collection of advanced context engineering techniques and patterns with minimal token footprint, focused on improving agent result quality and predictability.
 
+<p align="center">
+  <img src="assets/Context-Engineering-Kit6.png" width="512" alt="Context Engineering Kit - advanced context engineering techniques" />
+</p>
+
+
 The marketplace is based on prompts our company's developers have used daily for a long time, supplemented by plugins from benchmarked papers and high-quality projects.
 
 ## Key Features
