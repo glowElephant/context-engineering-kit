@@ -65,32 +65,28 @@ Each installed plugin loads only its specific agents, commands, and skills into 
 </details>
 
 <details>
-<summary>Gemini CLI or Antigravity CLI</summary>
+<summary>Gemini CLI</summary>
 
-**Gemini CLI installation**
-
-```bash
-gemini extensions install https://github.com/NeoLabHQ/context-engineering-kit
-```
-
-**Antigravity CLI installation:**
-
-**Important**: This command requires Gemini CLI to be installed. 
+Install the extension directly from the repository:
 
 ```bash
 gemini extensions install https://github.com/NeoLabHQ/context-engineering-kit
-agy plugin import gemini
 ```
 
-**Antigravity CLI installation without Gemini CLI:**
+**Note:** This installs every plugin's skills and agents as a single bundle — there's no per-plugin selection like Claude Code's. Unfortunately, Gemini CLI does not support per-plugin selection. But you can delete skills and agents that you don't need, after installation.
+
+</details>
+
+<details>
+<summary>Antigravity CLI</summary>
+
+Install the plugin directly from the repository's `antigravity/` folder — Gemini CLI is not required:
 
 ```bash
-git clone https://github.com/NeoLabHQ/context-engineering-kit
-cd context-engineering-kit
-agy plugin install .
+agy plugin install https://github.com/NeoLabHQ/context-engineering-kit/antigravity
 ```
 
-**Note:** This installs every plugin's skills and agents as a single bundle — there's no per-plugin selection like Claude Code's. Unfortunately, Gemini and Antigravity CLI does not support per-plugin selection. But you can delete skills and agents that you don't need, after installation.
+**Note:** This installs every plugin's skills and agents as a single bundle — there's no per-plugin selection like Claude Code's. Unfortunately, Antigravity CLI does not support per-plugin selection. But you can delete skills and agents that you don't need, after installation.
 
 </details>
 
