@@ -269,6 +269,15 @@ To view all available plugins:
 - [Tech Stack](https://neolab.gitbook.io/cek/plugins/tech-stack) - Rules for language-specific best practices, automatically applied when working on matching file types.
 - [MCP](https://neolab.gitbook.io/cek/plugins/mcp) - Commands for setting up well-known MCP server integrations when needed and updating the CLAUDE.md file with requirements to use MCP servers in the current project.
 
+## Works Great With
+
+We developed the following projects to speed up development further and improve code quality:
+
+- [Agent Sandbox](https://github.com/NeoLabHQ/sandbox) - Development sandbox image for agents, based on the official devcontainers images from Microsoft. Works out of the box with most languages and agents.
+- [Agent Eslint Config](https://github.com/NeoLabHQ/agent-eslint-config) - An overly opinionated ESLint config for AI agents. Forces them to write low-complexity, highly readable code. Includes SonarJS, Unicorn, and 100+ rules focused on security and cognitive complexity.
+
+Both are tested and combine well with the [SADD](https://neolab.gitbook.io/cek/plugins/sadd)/[SDD](https://neolab.gitbook.io/cek/plugins/sdd) plugins, but also work great independently of Context Engineering Kit.
+
 ## Stay ahead
 
 Star Context Engineering Kit on GitHub to support its development and get notified about new features and updates.
